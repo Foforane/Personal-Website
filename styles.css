@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+   margin:0;
+   font-family: 'Raleway', sans-serif;
+   background-color: black;
+ line-height: 1.5;
+}
+span{
+    display: block;
+    font-weight: bold;
+    color: green;
+    font-size: 2em;
+}
+
+h1 {
+    font-size:1.7rem;
+    margin-bottom:1rem;
+    color:#fff;
+}
+.iImg{
+    display: flex;
+    flex-direction: column;
+   padding:1.33em;
+   background-image:url("Img/Code.PNG");
+   background-blend-mode:multiply;
+   background-size: cover;
+   background-color: #333;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.pic{ 
+    text-align:center;
+
+}
+@media (min-width: 974px){
+    .iImg{
+flex-direction:row;
+justify-content: center;
+}
+.disc{
+    margin:2rem 0 0 3rem;
+    width:50%;
+}
+}
+p{
+    font-size: 1.3rem;
+}
+.iImg p{
+    margin-top:1px;
+    color: #fff;
+    padding-left: 0.125rem;
+   
+    
+}
+.iImg img{
+    margin:auto;
+    width:250px;
+  
+    box-shadow: grey 0 0 10px;
+    border-radius: 50%;
+}
+h2{
+  color: #fff;
+}
+.Projects p{
+    border-left: 1px solid #fff;
+    
+}
+.Projects h2{
+    padding-left: 1rem;
+}
+.Projects p{
+    margin-top:1px;
+    color: #fff;
+    padding-left: 1rem;
+ 
+}
+@media (min-width: 974px){
+    .Projects{
+    margin-left: 2.5rem;
+    }
+}
+.title{
+    padding-left: 0.4375rem;
+    color:#fff;
+}
+.why{
+    padding-left: 0.4375rem;
+    color:#fff;
+}
+hr{
+    width:90%;
+    margin-left: 8px; 
+    border-color:white;
+}
+.Skills{
+text-align:center;
+
+}
+.i1,.i2{
+    width: 100px;
+}
+
+.i1{
+    position: relative;
+    right:100px;
+}
+.p p,h2{
+    padding-left: 5px;;
+}
+
+.para{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 90%;
+    
+}
+@media (min-width: 974px){
+    .para{
+        flex-direction: row;
+    }
+ }
+.p{ 
+ 
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: 1rem 0 1rem 32px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    
+    box-shadow: white 0 0 7px;
+   
+    background-color: #231F20;
+    /*max-width: 250.09px;*/
+
+}
+.i2{
+    position: relative;
+    left:100px;
+}
+.cy{
+width: 600px;
+
+}
+.cy img{
+    max-width: 250px;
+}
+.Skills{
+    display: flex;
+    flex-direction:column;
+}
+.Skills a{
+    padding: 0.75em 2.5em;
+    background-color: teal;
+    text-decoration: none;
+    margin: .5em ;
+    text-align: center;
+    color: white;
+    border-radius: .35em;
+
+}
+@media (min-width: 974px){
+    .Skills{
+        flex-direction: row;
+        margin: 0 5rem;
+    
+       justify-content:space-around;
+    }
+    .Skills a {
+        width: 400px;
+        
+    }
+
+}
+.Skills a:hover{
+   background-color: darkslategray;
+}
+.footer{
+   padding: 11px;
+   padding-left: 36px;
+    
+}
+.Social ul li a{
+    padding:0 1rem 0 0 ;
+}
+footer p{
+    padding-top:30px;
+
+    padding-left: 40px;
+
+}
+footer ul li{
+list-style: none;
+display: inline;
+
+   
+}
+footer ul li a{
+text-decoration: underline;
+color:black;
+font-weight: bold;
+}
+footer ul li a:hover{
+    color:brown;
+}
+footer{
+    margin-top: 5.6em;
+   text-align: left;
+    color: black;
+    background-color:lightgrey;
+}
+@media (min-width: 974px){
+    .Social{
+        width: 50%;
+        margin: auto;
+    }
+}

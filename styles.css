@@ -135,6 +135,10 @@ hr{
     position: relative;
     left:100px;
 }
+.Favourite_Language{
+    color: #fff;
+    margin: 1rem;
+}
 .cy{
 width: 600px;
 
@@ -155,7 +159,7 @@ width: 600px;
    }
    .skill{
        color: #000;
-       margin: 3.5rem;
+       margin: 2rem;
        
    }
 @media (max-width: 740px){
@@ -191,9 +195,9 @@ display: inline;
    
 }
 footer ul li a{
-text-decoration: underline;
+
 color:black;
-font-weight: bold;
+
 }
 footer ul li a:hover{
     color:brown;

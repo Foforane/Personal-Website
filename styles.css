@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
    margin:0;
    font-family: 'Raleway', sans-serif;
@@ -63,17 +66,14 @@ p{
 h2{
   color: #fff;
 }
-.Projects p{
+
+
+.Projects {
     border-left: 1px solid #fff;
-    
-}
-.Projects h2{
-    padding-left: 1rem;
-}
-.Projects p{
     margin-top:1px;
     color: #fff;
     padding-left: 1rem;
+    margin-left: 0.5rem;
  
 }
 @media (min-width: 974px){

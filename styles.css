@@ -145,24 +145,28 @@ width: 600px;
 
 .skills{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #fff;
+   }
+   .skill h3,.skill p {
+       margin-left: 1.5rem;
    }
    .skill{
        color: #000;
-       margin : auto;
+       margin: 3.5rem;
+       
    }
-@media (min-width: 974px){
-    .Skills{
-        flex-direction: row;
-        margin: 0 5rem;
-    
-       justify-content:space-around;
+@media (max-width: 740px){
+    .sdkills{
+        flex-direction: column;
+              
     }
-    .Skills a {
-        width: 400px;
-        
+    .skiall{
+        width: 100%;
     }
+  
 
 }
 
@@ -195,7 +199,7 @@ footer ul li a:hover{
     color:brown;
 }
 footer{
-    margin-top: 5.6em;
+   margin: 0;
    text-align: left;
     color: black;
     background-color:lightgrey;

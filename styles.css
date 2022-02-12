@@ -66,16 +66,30 @@ p{
 
 
 .Projects {
-    border-left: 1px solid #fff;
+    display: flex;
+    flex-direction:column;
+    
+   
+ 
+}
+.Sec1{
     margin-top:1px;
     color: #fff;
     padding-left: 1rem;
+    width: 50%;
     margin-left: 0.5rem;
- 
+    border-left: 1px solid #fff;
 }
 @media (min-width: 974px){
     .Projects{
-    margin-left: 2.5rem;
+    margin: 1.2rem;
+    width: 100%;
+    flex-direction:row;
+    
+    }
+    .Sec1{
+   width: 50%;
+
     }
 }
 .title{
@@ -159,8 +173,12 @@ width: 600px;
    }
    .skill{
        color: #000;
-       margin: 2rem;
+       margin: 1.8rem;
        
+   }
+   .norm p,.norm h3
+      {
+       margin-left: 0rem !important;
    }
 @media (max-width: 740px){
     .sdkills{

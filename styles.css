@@ -231,9 +231,10 @@ footer{
         width: 50%;
         margin: auto;
     }
-    .footer{
-        padding: 11px;
-        margin-left: 17.5rem;
+    .copyright{
+       font-size: 1.2rem !important;
+        margin-top: 1.2rem;
+        color: black !important;
          
      }
 }

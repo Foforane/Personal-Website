@@ -76,11 +76,11 @@ p{
     margin-top:1px;
     color: #fff;
     padding-left: 1rem;
-    width: 50%;
+    width: 100%;
     margin-left: 0.5rem;
     border-left: 1px solid #fff;
 }
-@media (min-width: 974px){
+@media (min-width: 800px){
     .Projects{
     margin: 1.2rem;
     width: 100%;
@@ -124,7 +124,7 @@ hr{
     flex-direction: column;
     justify-content:space-around;
     width: 90%;
-    
+   
 }
 @media (min-width: 974px){
     .para{
@@ -231,4 +231,9 @@ footer{
         width: 50%;
         margin: auto;
     }
+    .footer{
+        padding: 11px;
+        margin-left: 17.5rem;
+         
+     }
 }

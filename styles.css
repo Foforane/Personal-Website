@@ -2,12 +2,16 @@
 *{
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+}
 body{
    margin:0;
    font-family: 'Raleway', sans-serif;
    background-color: black !important;
  line-height: 1.5;
- overflow-x: hidden;
+ position: relative;
+
 }
 span{
     display: block;

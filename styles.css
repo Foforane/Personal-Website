@@ -5,7 +5,7 @@
 body{
    margin:0;
    font-family: 'Raleway', sans-serif;
-   background-color: black;
+   background-color: black !important;
  line-height: 1.5;
 }
 span{
@@ -19,6 +19,9 @@ h1 {
     font-size:1.7rem;
     margin-bottom:1rem;
     color:#fff;
+}
+.title{
+    color:green;
 }
 .iImg{
     display: flex;
@@ -47,6 +50,7 @@ justify-content: center;
 }
 }
 p{
+    color:#fff;
     font-size: 1.3rem;
 }
 .iImg p{
@@ -63,7 +67,10 @@ p{
     box-shadow: grey 0 0 10px;
     border-radius: 50%;
 }
-
+.about{
+    width:75%;
+    margin: 3rem;
+}
 
 .Projects {
     display: flex;
@@ -92,10 +99,7 @@ p{
 
     }
 }
-.title{
-    padding-left: 0.4375rem;
-    color:#fff;
-}
+
 .why{
     padding-left: 0.4375rem;
     color:#fff;
@@ -181,9 +185,9 @@ width: 600px;
        margin-left: 0rem !important;
    }
 @media (max-width: 740px){
-    .sdkills{
+    .skidlls{
         flex-direction: column;
-              
+              text-align: center;
     }
     .skiall{
         width: 100%;
@@ -225,6 +229,8 @@ footer{
    text-align: left;
     color: black;
     background-color:lightgrey;
+    width: 100%;
+    height:32vh;
 }
 @media (min-width: 974px){
     .Social{

@@ -157,7 +157,9 @@ width: 600px;
 .cy img{
     max-width: 250px;
 }
-
+.skill p{
+    color: #000 !important ;
+}
 .skills{
     display: flex;
     flex-direction: row;

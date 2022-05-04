@@ -82,10 +82,13 @@ p{
 }
 .about{
     width:75%;
-    margin: 3rem;
+    margin: 1.5rem;
 }
 
 .Projects {
+    width:75%;
+    margin: 1.5rem;
+
     display: flex;
     flex-direction:column;
     
@@ -93,12 +96,20 @@ p{
  
 }
 .Sec1{
-    margin-top:1px;
+  
     color: #fff;
-    padding-left: 1rem;
+
     width: 100%;
-    margin-left: 0.5rem;
-    border-left: 1px solid #fff;
+   
+    
+}
+.Sec2{
+    
+    color: #fff;
+  
+    width: 100%;
+    
+    
 }
 @media (min-width: 800px){
     .Projects{

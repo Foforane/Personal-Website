@@ -4,12 +4,14 @@
 }
 html{
     overflow-x: hidden;
+
 }
 body{
    margin:0;
    font-family: 'Raleway', sans-serif;
    background-color: black !important;
  line-height: 1.5;
+
  position: relative;
 
 }
@@ -169,7 +171,7 @@ width: 600px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: lightgrey;
    }
    .skill h3,.skill p {
        margin-left: 1.5rem;
@@ -220,8 +222,9 @@ color:black;
 footer ul li a:hover{
     color:brown;
 }
+
 footer{
-   margin: 0;
+   
    text-align: left;
     color: black;
     background-color:lightgrey;

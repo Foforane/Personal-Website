@@ -29,6 +29,7 @@ h1 {
 }
 .title{
     color:green;
+    padding-left: 0 !important;
 }
 .iImg{
     display: flex;
@@ -103,6 +104,7 @@ p{
    
     
 }
+
 .Sec2{
     
     color: #fff;
@@ -201,7 +203,9 @@ width: 600px;
         width:75%;
         margin: 1.8rem;
     }
-
+.Sec2{
+    width:50%
+}
 }
 
 .footer{

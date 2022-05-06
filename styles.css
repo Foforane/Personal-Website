@@ -87,7 +87,7 @@ p{
 }
 
 .Projects {
-    width:75%;
+    width:100%;
     margin: 1.5rem;
 
     display: flex;
@@ -100,16 +100,15 @@ p{
   
     color: #fff;
 
-    width: 100%;
+    width: 50%;
    
-    
-}
+   }
 
 .Sec2{
     
     color: #fff;
-  
-    width: 100%;
+    margin-left: 1.5rem;
+    width: 40%;
     
     
 }
@@ -121,17 +120,13 @@ p{
     
     }
     
-    .Sec1{
-   width: 50%;
-
-    }
 }
 
 
 hr{
     width:90%;
     margin-left: 8px; 
-    border-color:white;
+    color:green;
 }
 
 .i1,.i2{
@@ -203,8 +198,13 @@ width: 600px;
         width:75%;
         margin: 1.8rem;
     }
+    .Sec1{
+        width:90%;
+    }
 .Sec2{
-    width:50%
+    width:90%;
+    margin-left: 0;
+
 }
 }
 

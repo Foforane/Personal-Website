@@ -31,6 +31,11 @@ h1 {
     color:green;
     padding-left: 0 !important;
 }
+.ititle{
+    color:green;
+    width:60%;
+    margin:auto;
+}
 .tSkill{
     
     margin-left: 1.5rem;
@@ -129,11 +134,7 @@ p{
 }
 
 
-hr{
-    width:90%;
-    margin-left: 8px; 
-    color:green;
-}
+
 
 .i1,.i2{
     width: 100px;
@@ -169,6 +170,11 @@ hr{
 .Favourite_Language{
     color: #fff;
     margin: 1rem;
+    
+}
+.Favourite_Language p{
+    width:60%;
+    margin:auto;
 }
 .cy{
 width: 600px;
@@ -195,14 +201,24 @@ width: 600px;
        margin: 1.8rem;
        
    }
+   .normphp p, .normphp h3{
+       margin-left: 2.8rem !important;
+   }
    .norm p,.norm h3
       {
        margin-left: 0rem !important;
    }
 @media (max-width: 740px){
     .about{
-        width:75%;
+        width:85%;
         margin: 1.8rem;
+    }
+    .ititle{
+        margin-left: 1.5rem;
+    }
+    .Favourite_Language p{
+        width:95%;
+        
     }
     .Sec1{
         width:90%;
@@ -259,7 +275,7 @@ footer{
     }
     .copyright{
        font-size: 1.2rem !important;
-        margin-top: 1.2rem;
+        margin-top: 0.5rem;
         color: black !important;
          
      }
